@@ -36,10 +36,6 @@ h2 {
 
 }
 
-.links{
-
-
-}
 
 .flex1 {
 
@@ -102,7 +98,7 @@ border-radius: 10% 30% 50% 70%;
 
 .core {
 display:flex;
-positon:absolute;
+position:absolute;
 justify-content:center;
 height:300px;
 width:100px;
@@ -128,7 +124,7 @@ border-right: 100px solid #91ddb4;
 
 right:500px;
   display:flex;
- positon:absolute;
+ position:absolute;
   height:300px;
   width:100px;
   border-bottom: 80px solid DarkSeaGreen;
