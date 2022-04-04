@@ -44,7 +44,7 @@ body {
     top: 0%;
     right:0%;
     bottom:0%;
-    z-index: -1%;
+    z-index: -10%;
     background-image: url(/images/tv_static.gif);
     background-position: 50%;
     background-size: cover;
@@ -61,3 +61,20 @@ body {
        background:url(/images/0000-0200.mp4) repeat center center;
     }
 
+    a {
+        color:black;
+        
+  text-shadow: 12px 5px #2F4F4F;
+  text-decoration:none;
+  font-family: 'Fredoka One', cursive;
+    }
+
+.landing-content {
+    max-width:100%;
+    vertical-align:middle;
+    display:flex;
+    border:0;
+    text-align: center;
+    position:relative;
+  z-index:1;
+    }
