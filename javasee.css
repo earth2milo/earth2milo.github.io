@@ -1,0 +1,63 @@
+#overlay_container {
+background-image: url("/images/tv_border_milo.png");
+background-size:100% 100%;
+background-position:50% 50%;
+background-repeat:no-repeat;
+left:0%;
+top:0%;
+right:0%;
+bottom:0%;
+overflow:hidden;
+width:100%;
+height:100%;
+}
+
+body {
+    margin:0;
+    display:block;
+    
+}
+
+.landing-title {
+    position:relative;
+    margin:0;
+    text-align: center;
+    align-items: center;
+    z-index:-1;
+    margin-left:auto;
+    margin-top:25%;
+    margin-right:  -50%;
+    display:flex;
+}
+
+#logo {
+    max-width:100%;
+    vertical-align:middle;
+    display:flex;
+    border:0;
+    
+}
+
+#static {
+    position:absolute;
+    left: 0%;
+    top: 0%;
+    right:0%;
+    bottom:0%;
+    z-index: -1%;
+    background-image: url(/images/tv_static.gif);
+    background-position: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.03;
+}
+
+    #loading {
+       display:inline-block;
+       width:100%;
+       height:100vh;
+       z-index:1;
+       overflow:hidden;
+       background:url(/images/0000-0200.mp4) repeat center center;
+    }
+
