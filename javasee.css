@@ -31,7 +31,32 @@ body {
     font-family: 'Rubik Puddles', cursive;
 
 
+
+
 }
+
+
+button {
+    display:flex;
+    font-family: 'Rubik Puddles', cursive;
+    padding:0;
+    border:none;
+    background:none;
+}
+
+p {
+    display:none;
+    font-family: 'Rubik Puddles', cursive;
+    padding:0;
+    top:10%;
+    color:black;
+    text-shadow: 1px 1px black;
+    margin-left:30%;
+    margin-right:30%;
+    font-size: 2vh;
+    
+}
+
 #static {
     position:absolute;
     left: 0%;
