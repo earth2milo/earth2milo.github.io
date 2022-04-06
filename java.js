@@ -7,7 +7,7 @@ var btn = document.createElement("button");
 btn.innerHTML = "PRESS TO START";
 btn.display = "flex";
 btn.style.position="absolute";
-btn.style.top = "35%";
+btn.style.top = "15%";
 btn.style.right ="45%";
 document.body.appendChild(btn);
 
